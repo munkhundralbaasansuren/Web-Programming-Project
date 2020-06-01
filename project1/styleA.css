@@ -1,0 +1,33 @@
+*{ 
+    text-align: center; 
+    font-size: 40px; 
+    font-family: Tahoma, sans-serif;
+  
+  }
+  .container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    min-height: 100vh;
+  }
+  .first {
+    width: 100px; 
+    height: 100px; 
+    margin: auto; 
+    background-color: #dfe1e7; 
+    border-top: solid 1px #687291; 
+  }
+  .second {
+    width: 100px; 
+    height: 100px; 
+    margin: auto; 
+    background-color: #eeeff2; 
+    border-top: solid 1px #687291;
+  }
+  .final {
+    width: 100px; 
+    height: 100px; 
+    margin: auto; 
+    background-color: #687291;  
+    border: solid 4px black;  
+  }

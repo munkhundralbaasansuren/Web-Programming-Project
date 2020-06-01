@@ -1,0 +1,47 @@
+*{ 
+    font-size: 40px; 
+    font-family: Tahoma, sans-serif;
+    padding: 10px;
+  }
+    .container {
+        display: flex; 
+    }
+    .first {
+        width: 100px; 
+        height: 150px; 
+        margin:10px; 
+        background-color: #eeeff2; 
+        border-left: 10px dotted #D0D0FF; 
+    }
+    .second {
+        width: 100px; 
+        height: 150px; 
+        margin:10px; 
+        background-color: #eeeff2; 
+        border-left: 10px dotted #D0D0FF; 
+    }
+    .final {
+        width: 100px; 
+        height: 150px; 
+        margin: 10px; 
+        position: fixed; 
+        right: 0; 
+        bottom: 8px; 
+        background-color: #eeeff2;  
+        border-left: 10px dotted #D0D0FF; 
+    }
+    .first:hover{
+        cursor: pointer; 
+        background-color: yellow; 
+        color: goldenrod; 
+        }
+    .second:hover{
+        cursor: pointer; 
+        background-color: yellow; 
+        color: goldenrod; 
+        }
+    .final:hover{
+        cursor: pointer; 
+        background-color: yellow; 
+        color: goldenrod;
+        }
